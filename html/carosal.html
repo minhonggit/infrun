@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Carousel using bxSlider.js</title>>
+    <link rel="stylesheet" href="../bxslider/src/css/jquery.bxslider.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align : center;
+            font-size:3em;
+            font-family: 'Merriweather', serif;
+        }
+        p{
+            
+            text-align : center;
+            font-size:2em;
+            font-family: 'Merriweather', serif;
+            
+        }
+        #wrapper{
+            width: 700px;
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+   
+    
+        <h1>Capstone Design</h1>>
+        <div id="wrapper">
+        <div class="bxslider">
+            <div>
+                <img src="../img/honggi.png" width="672" height="378"> 
+            </div>>
+            <div>
+                <img src="../img/youngjun.png" width="672" height="378"> 
+            </div>>
+            <div>
+                <img src="../img/seunggu.png" width="672" height="378"> 
+            </div>>
+        </div>>
+        <p>team member</p>>    
+    </div>>
+        
+    
+    <script src="../html/js/jquery-2.2.4.min.js"></script>
+    <script src="../bxslider/src/js/jquery.bxslider.js"></script>
+    <script>
+        $(function(){
+            $('.bxslider').bxSlider({
+                slideWidth:700
+            }
+            );
+        });
+    </script>
+</body>>
+</html>>
